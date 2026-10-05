@@ -1,0 +1,34 @@
+# Environment files and local credentials
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Installed dependencies
+/vendor/
+**/vendor/
+/laravel-12/.editorconfig
+/laravel-12/.gitattributes
+/laravel-12/.gitignore
+
+# Local database dumps contain sample/user data and old migration state
+/database/database.sql
+/laravel-12/database/laundry_ukk.sql
+
+# Runtime data, logs, and generated reports
+*.log
+/storage/private/reports/*
+/storage/private/
+/laravel-12/storage/logs/*
+/laravel-12/storage/framework/cache/data/*
+/laravel-12/storage/framework/sessions/*
+/laravel-12/storage/framework/views/*
+/laravel-12/storage/app/private/*
+
+# Generated framework and test artifacts
+/laravel-12/bootstrap/cache/*.php
+/laravel-12/.phpunit.cache
+/laravel-12/.phpunit.result.cache
+/laravel-12/database/*.sqlite
